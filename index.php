@@ -45,8 +45,8 @@
                     <div class="ul__search_container">
                         <div class="ul_container">
                             <ul>
-                                <li><a href="#">Про нас</a></li>
-                                <li><a href="#">Діяльність</a></li>
+                                <li><a href="#about_us">Про нас</a></li>
+                                <li><a href="#activity">Діяльність</a></li>
                                 <li class="li_new"><a href="#">війна в україні</a><sup class="new">Актуальне</sup></li>
                             </ul>
                         </div>
@@ -63,21 +63,24 @@
                     <div class="header__slider_container">
                         <div class="slider__divider">
                             <div class="divider__container">
-                                <h2 class="advertisement">linger запрошує вас відвідати безплатний курс військової підготовки </h2>
+                                <h2 class="advertisement">linger запрошує вас відвідати безплатну лекцію по військовій справі </h2>
                                 <button id="sign" class="button">Записатись</button>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
             </div>
-            </div>
+        </div>
         </header>
         <main>
             <div class="main__wrapper">
-                <section class="about_us">
-                    <h2 class="title">Про нас</h2>
+                <div class="sub_cont">
+                    <div class="subscribtion">
+                        <p class="subs__text">Придбайте нашу підписку за 3.99$</p>
+                        <button class="button">Придбати</button>
+                    </div>
+                </div>
+                    <h2 class="title" id="about_us">Про нас</h2>
                     <div class="about_us__text">
                         <div class="aspect">
                             <p class="number">1</p>
@@ -93,24 +96,42 @@
                         </div>
                         <div class="countries__info">
                             <div class="aspect country">
-                                <img src="img\ua.svg" alt="" class="countries">
-                                <img src="img\iraq.svg" alt="" class="countries">
-                                <img src="img\syria.svg" alt="" class="countries">
-                                <img src="img\china.svg" alt="" class="countries">
-                                <img src="img\belarus.svg" alt="" class="countries">
+                                <img src="img\ua.svg" alt="Україна" class="countries">
+                                <img src="img\iraq.svg" alt="Ірак" class="countries">
+                                <img src="img\syria.svg" alt="Сирія" class="countries">
+                                <img src="img\china.svg" alt="Китай" class="countries">
+                                <img src="img\belarus.svg" alt="Білорусь" class="countries">
                             </div>
                             <p class="text">*Країни, війни в яких вивчила організація Linger</p>
                         </div>
                     </div>
 
                      <h2 class="title">Діяльність</h2>
-                    <div class="activity">
+                    <div class="activity" id="activity">
                         <div class="aspect">
                             <p class="text">Методологія досліджень LINGER спирається як на первинні, так і на вторинні джерела, що дозволяє дослідникам отримати всебічне розуміння ситуації на місцях. Для того, щоб аналізувати військові та політичні події в тій чи іншій місцевості, аналітики ISW повинні досконало розуміти системи ворожих та дружніх збройних сил. Вони також повинні розуміти демографічні показники населення, фізичний рельєф місцевості, політику та історію цієї території. Це закладає аналітичну основу для розуміння причин конкретних подій і виконання поставлених дослідницьких завдань.</p>
-                        </div>                      
-                    </div>
-                </section>               
+                        </div>  
+                        <h2 class="title">Матеріали</h2>
+                        <div class="vertical_block__material">
+                            <div class="material">
+                                <div class="time">
+                                    26.04.2023
+                                </div>
+                                <div class="theme">
+                                    <p class="text">Вийшов новий матеріал по темі "Війна в Україні"</p>
+                                    <button class="button lowsize">DEMO перегляд</button>
+                                </div>
+                            </div>
+                        </div>                    
+                    </div>              
             </div>
         </main>
+        <footer>
+            <div class="footer__wrapper">
+            1400 16th Street NW, Suite 515 Washington, DC 20036
+            ph (202) 293-5550
+            ©2007 – 2023 THE INSTITUTE FOR THE STUDY OF WAR
+            </div>
+        </footer>
 </body>
 </html>
