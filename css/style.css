@@ -2,20 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+ul{
+    list-style: none;
 }
 a{
     text-decoration: none;
     color: #fff;
-}
-body{
-    font-family: 'Montserrat', sans-serif;
 }
 .header__top_section, .top__section_icon_container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.header__top_section, .header__main_ul{
+.header__top_section, .header__main_ul, .ul__search_container{
     padding-left: 54px;
     padding-right: 54px;
 }
@@ -40,22 +41,22 @@ body{
     text-transform: uppercase;
     padding-right: 1rem;
 }
+.eng{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.ua{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
 .lang__container{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.horizontal{
-    height: 50px;
-    width: 2px;
-    border: #9D9D9D 1.45px solid;
-    border-radius: 2rem;
-    margin-right: 5%;
-}
 .lang-switcher{
     padding: 0.7rem;
     transition: .2s all;
-    border-radius: 5px;
     text-align: center;
     width: 80px;
 }
@@ -69,4 +70,67 @@ body{
 }
 .lang-switcher:hover a{
    color: #1c1c1c;
+}
+.lang-switcher:active,
+.lang-switcher:visited{
+    background: #fff;
+}
+.lang-switcher:active,
+.lang-switcher:visited a{
+   color: #1c1c1c;
+}
+.ul__search_container{
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.ul_container ul{
+    display: flex;
+    padding-right: 1rem;
+    position: relative;
+}
+.ul_container ul>li{
+    text-transform: uppercase;
+    padding-left: 1.3rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.li_new{
+    margin-right: 0.5rem;
+}
+li sup{
+    font-size: 10px;
+    background: #fff;
+    color: #1c1c1c;
+    padding:0.3rem;
+    border-radius: 10px;
+    position: relative;
+    top: -0.8rem;
+}
+.input__flex{
+    min-width:280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 0.65rem;
+    border-radius: 30px;
+}
+.input__flex input{
+    padding: 0.25rem;
+    padding-right: 0.5rem;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+.input__flex input::placeholder{
+    text-transform: uppercase;
+    color: #c3c3c3;
+    font-size: 15px;
+}
+.input__flex input:focus{
+    outline: 0;
 }

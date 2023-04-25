@@ -26,10 +26,10 @@
                     <div class="top__section_language_profile">
                         <div class="lang">
                             <div class="lang__container">
-                                <p class="lang-switcher">
-                                    <a href="#">eng</a>
+                                <p class="lang-switcher eng">
+                                    <a href="#" tabindex="0">eng</a>
                                 </p>
-                                <p class="lang-switcher">
+                                <p class="lang-switcher ua" tabindex="0">
                                     <a href="#">ua</a>
                                 </p>
                             </div>
@@ -45,46 +45,21 @@
                         <div class="ul_container">
                             <ul>
                                 <li><a href="#">контакти</a></li>
-                                <li><a href="#">магазини</a></li>
-                                <li><a href="#">тир</a></li>
+                                <li><a href="#">магазин</a></li>
+                                <li class="li_new"><a href="#">військовий стан</a><sup class="new">нове</sup></li>
                             </ul>
                         </div>
                         <div class="top__section_icon_container search">
                         <div class="icon"><div class="input__flex">
-                            <input type="search" name="" id="" placeholder="пошук">
+                            <input type="text" name="" id="" placeholder="пошук">
                             <img src="img\pepicons-pop_loop.svg" alt="" class="loop">
                         </div></div>
-                            <div class="icon"><a href="#"><img src="./img/heart.svg" alt=""></a></div>
-                            <div class="icon"><a href="#"><img src="./img/scales.svg" alt=""></a></div>
                         </div> 
                     </div>
                 </div>
 
-                <div class="header__ul_searh">
-                    <div class="ul__search_container">
-                        <div class="ul_container">
-                            <ul class="ul_font-small">
-                                <li><a href="#">Зброя</a></li>
-                                <li><a href="#">Набої</a></li>
-                                <li><a href="#">Ножі</a></li>
-                                <li><a href="#">Тюнінг</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                .
 
-                <div class="header__slider_frame">
-                    <div class="slider">
-                        <div class="control">
-                            <div class="left"></div>
-                            <div class="right"></div>
-                        </div>
-                        <div class="image">
-                            <h1>linger - НАЙБІЛЬШИЙ дистриб’ютор зброї в україні</h1>
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                </div>
             </div>
         </header>
 </body>
