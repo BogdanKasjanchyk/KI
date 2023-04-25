@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.header__top_section, .top__section_icon_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__top_section, .header__main_ul{
+    padding-left: 54px;
+    padding-right: 54px;
+}
+.header__top_section{
+    width: 100%;
+    min-height: 100px;
+    background-color: #1c1c1c;
+}
+.header__top_section .icon{
+    width: 50px;
+    height: 50px;
+    margin: 10.5px;
+}
+.top__section_logo{
+    width: 210px;
+    height: 50px;
+}
+.lang{
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-right: 1rem;
+}
+.lang__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.horizontal{
+    height: 50px;
+    width: 2px;
+    border: #9D9D9D 1.45px solid;
+    border-radius: 2rem;
+    margin-right: 5%;
+}
+.lang-switcher{
+    padding: 0.7rem;
+    transition: .2s all;
+    border-radius: 5px;
+    text-align: center;
+    width: 80px;
+}
+.top__section_language_profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lang-switcher:hover{
+    background: #fff;
+}
+.lang-switcher:hover a{
+   color: #1c1c1c;
+}
