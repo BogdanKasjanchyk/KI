@@ -1,3 +1,24 @@
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #C3C3C3 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 13px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #1f1e1e;
+    border-radius: 10px;
+    border: 4px solid #ffffff;
+  }
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +32,11 @@ a{
     text-decoration: none;
     color: #fff;
 }
+.header__wrapper{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
 .header__top_section, .top__section_icon_container{
     display: flex;
     justify-content: space-between;
@@ -19,6 +45,13 @@ a{
 .header__top_section, .header__main_ul, .ul__search_container{
     padding-left: 54px;
     padding-right: 54px;
+}
+.header__slider_container{
+    width: 100%;
+    height: 550px;
+    background-image: url('../img/thumbnail.jpg');
+    background-size: cover;
+    background-position: center;
 }
 .header__top_section{
     width: 100%;
@@ -94,7 +127,7 @@ a{
 }
 .ul_container ul>li{
     text-transform: uppercase;
-    padding-left: 1.3rem;
+    padding-right: 1.3rem;
     font-weight: 700;
     font-size: 1.2rem;
 }
@@ -109,14 +142,15 @@ li sup{
     border-radius: 10px;
     position: relative;
     top: -0.8rem;
+    font-weight: 700;
 }
 .input__flex{
-    min-width:280px;
+    min-width:300px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #fff;
-    padding: 0.65rem;
+    padding: 0.35rem;
     border-radius: 30px;
 }
 .input__flex input{
