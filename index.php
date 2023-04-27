@@ -1,27 +1,18 @@
 <!DOCTYPE html>
+<?php require 'head.php'; ?>
+<title>Linger</title>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="css\style.css">
-    <title>LINGER</title>
-</head>
 <body>
         <header>
             <div class="header">
             <div class="header__wrapper">
                 <div class="header__top_section">
                     <div class="top__section_icon_container">
-                        <div class="icon"><a href="#"><img src="./img/fb.svg" alt=""></a></div>
-                        <div class="icon"><a href="#"><img src="./img/inst.svg" alt=""></a></div>
-                        <div class="icon"><a href="#"><img src="./img/yt.svg" alt=""></a></div>
+                        <?php require 'top__section_icon_container.php'; ?>
                     </div>
                     <div class="top__section_logo">
                         <div class="logo">
-                            <a href="#"><img src="./img/linger.svg" alt=""></a>
+                            <a href="#"><img src="./img/icons/linger.svg" alt=""></a>
                         </div>
                     </div>
                     <div class="top__section_language_profile">
@@ -36,7 +27,7 @@
                             </div>
                         </div>
                         <div class="profile">
-                            <a href="#"><img src="./img/profile.svg" alt=""></a>
+                            <a href="#"><img src="./img/icons/profile.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -47,14 +38,16 @@
                             <ul>
                                 <li><a href="#about_us">Про нас</a></li>
                                 <li><a href="#activity">Діяльність</a></li>
-                                <li class="li_new"><a href="#">війна в україні</a><sup class="new">Актуальне</sup></li>
+                                <li class="li_new"><a href="#material">Військові конфлікти</a><sup class="new">Актуальне</sup></li>
                             </ul>
                         </div>
                         <div class="top__section_icon_container search">
-                        <div class="icon"><div class="input__flex">
-                            <input type="text" name="" id="" placeholder="пошук">
-                            <img src="img\pepicons-pop_loop.svg" alt="" class="loop">
-                        </div></div>
+                        <div class="icon">
+                            <div class="input__flex">
+                                <input type="text" name="" id="" placeholder="пошук">
+                                <img src="./img/icons/pepicons-pop_loop.svg" alt="" class="loop">
+                            </div>
+                    </div>
                         </div> 
                     </div>
                 </div>
@@ -77,7 +70,7 @@
                 <div class="sub_cont">
                     <div class="subscribtion">
                         <p class="subs__text">Придбайте нашу підписку за 3.99$</p>
-                        <button class="button">Придбати</button>
+                        <button class="button"><a href="./premium.php" class="link_button">Почати</a></button>
                     </div>
                 </div>
                     <h2 class="title" id="about_us">Про нас</h2>
@@ -94,16 +87,6 @@
                             <p class="number">3</p>
                             <p class="text">Наша візія - бути провідним центром експертизи з питань вивчення війни та сприяти миротворчим розв'язанням конфліктів. Ми вважаємо, що краще розуміння причин, ходу та наслідків воєн може допомогти запобігти непотребному насильству, зменшити людське страждання та покращити глобальну стабільність.</p>
                         </div>
-                        <div class="countries__info">
-                            <div class="aspect country">
-                                <img src="img\ua.svg" alt="Україна" class="countries">
-                                <img src="img\iraq.svg" alt="Ірак" class="countries">
-                                <img src="img\syria.svg" alt="Сирія" class="countries">
-                                <img src="img\china.svg" alt="Китай" class="countries">
-                                <img src="img\belarus.svg" alt="Білорусь" class="countries">
-                            </div>
-                            <p class="text">*Країни, війни в яких вивчила організація Linger</p>
-                        </div>
                     </div>
 
                      <h2 class="title">Діяльність</h2>
@@ -111,27 +94,32 @@
                         <div class="aspect">
                             <p class="text">Методологія досліджень LINGER спирається як на первинні, так і на вторинні джерела, що дозволяє дослідникам отримати всебічне розуміння ситуації на місцях. Для того, щоб аналізувати військові та політичні події в тій чи іншій місцевості, аналітики ISW повинні досконало розуміти системи ворожих та дружніх збройних сил. Вони також повинні розуміти демографічні показники населення, фізичний рельєф місцевості, політику та історію цієї території. Це закладає аналітичну основу для розуміння причин конкретних подій і виконання поставлених дослідницьких завдань.</p>
                         </div>  
-                        <h2 class="title">Матеріали</h2>
+                        <h2 class="title" id="material">Матеріали</h2>
                         <div class="vertical_block__material">
                             <div class="material">
                                 <div class="time">
                                     26.04.2023
                                 </div>
                                 <div class="theme">
-                                    <p class="text">Вийшов новий матеріал по темі "Війна в Україні"</p>
-                                    <button class="button lowsize">DEMO перегляд</button>
+                                    <p class="text">Матеріал по темі "Війна в Україні"</p>
+                                <a href="ukraine.php"><button class="button lowsize">Перегляд</button></a>
+                                </div>
+                            </div>
+                            <div class="material">
+                                <div class="time">
+                                    09.01.2016
+                                </div>
+                                <div class="theme">
+                                    <p class="text">Матеріал по темі "Війна в Афганістані"</p>
+                                    <a href="afghan.php"><button class="button lowsize">Перегляд</button></a>
                                 </div>
                             </div>
                         </div>                    
                     </div>              
             </div>
         </main>
-        <footer>
-            <div class="footer__wrapper">
-            1400 16th Street NW, Suite 515 Washington, DC 20036
-            ph (202) 293-5550
-            ©2007 – 2023 THE INSTITUTE FOR THE STUDY OF WAR
-            </div>
-        </footer>
+        <?php require 'footer.php';?>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./main.js"></script> 
 </body>
 </html>
