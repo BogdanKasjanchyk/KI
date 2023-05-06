@@ -108,6 +108,6 @@
                     </div>              
             </div>
         </main>
-        <?php require '../footer.php';?>
+        <?php require 'footer.php';?>
 </body>
 </html>
