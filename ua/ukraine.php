@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php require 'head.php'; ?>
+<?php require '../head.php'; ?>
 <title>Україна</title>
 <body>
         <header>
             <div class="header">
             <div class="header__wrapper">
                 <div class="header__top_section">
-                    <?php require 'top__section_icon_container.php'; ?>
+                    <?php require '../top__section_icon_container.php'; ?>
                     <div class="top__section">
                         <div class="logo">
                             <h1 class="main_title">Україна</h1> 
@@ -17,15 +17,15 @@
                         <div class="lang">
                             <div class="lang__container">
                                 <p class="lang-switcher eng">
-                                    <a href="#" tabindex="0">eng</a>
+                                    <a href="../eng/ukraine.php" tabindex="0">eng</a>
                                 </p>
                                 <p class="lang-switcher ua" tabindex="0">
-                                    <a href="#">ua</a>
+                                    <a href="../ua/ukraine.php">ua</a>
                                 </p>
                             </div>
                         </div>
                         <div class="profile">
-                            <a href="#"><img src="./img/icons/profile.svg" alt=""></a>
+                            <a href="#"><img src="../img/icons/profile.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -34,13 +34,13 @@
                     <div class="ul__search_container">
                         <div class="ul_container">
                             <ul>
-                                <li><a href="./index.php" class="back"><img src="./img/icons/arrow.svg" alt="" class="icon">Назад</a></li>
+                                <li><a href="../ua/index.php" class="back"><img src="../img/icons/arrow.svg" alt="" class="icon">Назад</a></li>
                         </div>
                         <div class="top__section_icon_container search">
                             <div class="icon">
                                 <div class="input__flex">
                                     <input type="text" name="" id="" placeholder="пошук">
-                                    <img src="img/icons/pepicons-pop_loop.svg" alt="" class="loop">
+                                    <img src="../img/icons/pepicons-pop_loop.svg" alt="" class="loop">
                                 </div>
                             </div>
                         </div> 
@@ -67,7 +67,7 @@
                 </div>
 
                 <div class="main__thumbnail">
-                    <img src="./img/ukraine-war/ukraine-thumb.jpg" alt="" class="thumbnail">
+                    <img src="../img/ukraine-war/ukraine-thumb.jpg" alt="" class="thumbnail">
                     <p class="remark">Реактивна система залпового вогню БМ-21 "Град" веде вогонь по російських позиціях на передовій біля Бахмута.</p>
                 </div>
 
@@ -96,17 +96,17 @@
                 <hr>
                 <h2>Карти</h2>
                  <div class="main__img_info">
-                    <a href="./img/ukraine-war/map1.png"><img src="./img/ukraine-war/map1.png" alt="" class="img_materials"></a>
-                    <a href="./img/ukraine-war/Kharkiv Battle Map Draft April 26,2023 .png"><img src="./img/ukraine-war/Kharkiv Battle Map Draft April 26,2023 .png" alt="" class="img_materials"></a>
-                    <a href="./img/ukraine-war/Donetsk Battle Map Draft April 26,2023.png"><img src="./img/ukraine-war/Donetsk Battle Map Draft April 26,2023.png" alt="" class="img_materials"></a><a href="./img/ukraine-war/Donetsk Battle Map Draft April 26,2023.png"><img src="./img/ukraine-war/Donetsk Battle Map Draft April 26,2023.png" alt="" class="img_materials"></a>
-                    <a href="./img/ukraine-war/Zaporizhia Battle Map Draft April 26,2023.png"><img src="./img/ukraine-war/Zaporizhia Battle Map Draft April 26,2023.png" alt="" class="img_materials"></a>
-                    <a href="./img/ukraine-war/Kherson-Mykolaiv Battle Map Draft April 26,2023.png"><img src="./img/ukraine-war/Kherson-Mykolaiv Battle Map Draft April 26,2023.png" alt="" class="img_materials"></a>
+                    <a href="../img/ukraine-war/map1.png"><img src="../img/ukraine-war/map1.png" alt="" class="img_materials"></a>
+                    <a href="../img/ukraine-war/Kharkiv Battle Map Draft April 26,2023 .png"><img src="../img/ukraine-war/Kharkiv Battle Map Draft April 26,2023 .png" alt="" class="img_materials"></a>
+                    <a href="../img/ukraine-war/Donetsk Battle Map Draft April 26,2023.png"><img src="../img/ukraine-war/Donetsk Battle Map Draft April 26,2023.png" alt="" class="img_materials"></a><a href="../img/ukraine-war/Donetsk Battle Map Draft April 26,2023.png"><img src="../img/ukraine-war/Donetsk Battle Map Draft April 26,2023.png" alt="" class="img_materials"></a>
+                    <a href="../img/ukraine-war/Zaporizhia Battle Map Draft April 26,2023.png"><img src="../img/ukraine-war/Zaporizhia Battle Map Draft April 26,2023.png" alt="" class="img_materials"></a>
+                    <a href="../img/ukraine-war/Kherson-Mykolaiv Battle Map Draft April 26,2023.png"><img src="../img/ukraine-war/Kherson-Mykolaiv Battle Map Draft April 26,2023.png" alt="" class="img_materials"></a>
                  </div>
             <div class="iframe__cont">
                 <iframe src="https://storymaps.arcgis.com/stories/36a7f6a6f5a9448496de641cf64bd375?header" width="100%" height="500px" frameborder="0" allowfullscreen allow="geolocation"></iframe>
                 </div>
             </div>
         </main>
-        <?php require 'footer.php';?>
+        <?php require '../footer.php';?>
 </body>
 </html>

@@ -1,32 +1,23 @@
 <!DOCTYPE html>
-<?php require 'head.php'; ?>
+<?php require '../head.php'; ?>
 <title>Linger</title>
-<html lang="en">
+<html lang="ua">
 <body>
         <header>
             <div class="header__wrapper">
                 <div class="header__top_section">
                     <div class="top__section_icon_container">
-                        <?php require 'top__section_icon_container.php'; ?>
+                        <?php require '../top__section_icon_container.php'; ?>
                     </div>
                     <div class="top__section_logo">
                         <div class="logo">
-                            <a href="#"><img src="./img/icons/linger.svg" class="logo_img" alt=""></a>
+                            <a href="#"><img src="../img/icons/linger.svg" class="logo_img" alt=""></a>
                         </div>
                     </div>
                     <div class="top__section_language_profile">
-                        <div class="lang">
-                            <div class="lang__container">
-                                <p class="lang-switcher eng">
-                                    <a href="#" tabindex="0">eng</a>
-                                </p>
-                                <p class="lang-switcher ua" tabindex="0">
-                                    <a href="#">ua</a>
-                                </p>
-                            </div>
-                        </div>
+                       <?php require '../lang.php'; ?>
                         <div class="profile">
-                            <a href="#"><img src="./img/icons/profile.svg" alt=""></a>
+                            <a href="#"><img src="../img/icons/profile.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -44,7 +35,7 @@
                         <div class="icon">
                             <div class="input__flex">
                                 <input type="text" name="" id="" placeholder="пошук">
-                                <img src="./img/icons/pepicons-pop_loop.svg" alt="" class="loop">
+                                <img src="../img/icons/pepicons-pop_loop.svg" alt="" class="loop">
                             </div>
                     </div>
                         </div> 
@@ -101,7 +92,7 @@
                                 </div>
                                 <div class="theme">
                                     <p class="text">Матеріал по темі "Війна в Україні"</p>
-                                <a href="ukraine.php"><button class="button lowsize">Перегляд</button></a>
+                                <a href="../ua/ukraine.php"><button class="button lowsize">Перегляд</button></a>
                                 </div>
                             </div>
                             <div class="material">
@@ -110,13 +101,13 @@
                                 </div>
                                 <div class="theme">
                                     <p class="text">Матеріал по темі "Війна в Афганістані"</p>
-                                    <a href="afghan.php"><button class="button lowsize">Перегляд</button></a>
+                                    <a href="../ua/afghan.php"><button class="button lowsize">Перегляд</button></a>
                                 </div>
                             </div>
                         </div>                    
                     </div>              
             </div>
         </main>
-        <?php require 'footer.php';?>
+        <?php require '../footer.php';?>
 </body>
 </html>

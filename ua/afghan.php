@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-<?php require 'head.php'; ?>
+<html lang="ua">
+<?php require '../head.php'; ?>
 <title>Афганістан</title>
 <body>
         <header>
             <div class="header">
             <div class="header__wrapper">
                 <div class="header__top_section">
-                    <?php require 'top__section_icon_container.php'; ?>
+                    <?php require '../top__section_icon_container.php'; ?>
                     <div class="top__section">
                         <div class="logo">
                             <h1 class="main_title">Афганістан</h1> 
@@ -17,15 +17,15 @@
                         <div class="lang">
                             <div class="lang__container">
                                 <p class="lang-switcher eng">
-                                    <a href="#" tabindex="0">eng</a>
+                                    <a href="../eng/afghan.php">eng</a>
                                 </p>
-                                <p class="lang-switcher ua" tabindex="0">
-                                    <a href="#">ua</a>
+                                <p class="lang-switcher ua">
+                                    <a href="../ua/afghan.php">ua</a>
                                 </p>
                             </div>
                         </div>
                         <div class="profile">
-                            <a href="#"><img src="./img/icons/profile.svg" alt=""></a>
+                            <a href="#"><img src="../img/icons/profile.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -34,13 +34,13 @@
                     <div class="ul__search_container">
                         <div class="ul_container">
                             <ul>
-                                <li><a href="./index.php" class="back"><img src="./img/icons/arrow.svg" alt="" class="icon">Назад</a></li>
+                                <li><a href="../ua/index.php" class="back"><img src="../img/icons/arrow.svg" alt="" class="icon">Назад</a></li>
                         </div>
                         <div class="top__section_icon_container search">
                             <div class="icon">
                                 <div class="input__flex">
                                     <input type="text" name="" id="" placeholder="пошук">
-                                    <img src="img/icons/pepicons-pop_loop.svg" alt="" class="loop">
+                                    <img src="../img/icons/pepicons-pop_loop.svg" alt="" class="loop">
                                 </div>
                             </div>
                         </div> 
@@ -49,7 +49,7 @@
         </header>
         <main>
             <div class="main__wrapper">
-            <div class="options">
+                <div class="options">
                     <div class="hashtag__block">
                         <div class="tag">
                             #afghanistan
@@ -67,9 +67,10 @@
                 </div>
 
                 <div class="main__thumbnail">
-                    <img src="./img/afghanistan-war/afghan-thumb.jpg" alt="" class="thumbnail">
+                    <img src="../img/afghanistan-war/afghan-thumb.jpg" alt="" class="thumbnail">
                     <p class="remark">Афганські студенти читають ісламські молитви в класі на відкритому повітрі у віддаленому Ваханському коридорі у вересні 2007 року.</p>
                 </div>
+
                 <div class="main__text_container">
                     <div class="main_text_info">
                         <h2>Війна з СРСР (1979-1989)</h2>
@@ -93,53 +94,54 @@
                         <h2>Міжнародна евакуація</h2>
                         <p>Під час окупації талібаном, країну покинули тисячі іноземних громадян, включаючи дипломатів, журналістів та працівників гуманітарних організацій. У серпні 2021 року, після швидкого наступу талібану, США та інші країни організували масштабну евакуацію, яка тривала декілька тижнів та завершилась успішно. Багато людей, які залишились в країні, продовжують боротись зі складною ситуацією та намагаються знайти спосіб виїхати з країни.</p>
                     </div>
+
                     <div class="text__container_short_info">
-                    <h2>Список основних військових подій в Афганістані</h2>
+                        <h2>Список основних військових подій в Афганістані</h2>
                         <h2>1979-1989</h2>
-                        <p>
-                        - Вересень 1979: Радянський Союз вторгається в Афганістан, починається дев'ятирічна війна<br>
-                        - 1980: США та інші країни починають надавати підтримку афганським муджахедам у боротьбі проти Радянського Союзу<br>
-                        - 1989: Радянський Союз виводить свої війська з Афганістану, війна продовжується між урядовими військами та муджахедами
-                        </p>
+                            <p>
+                            - Вересень 1979: Радянський Союз вторгається в Афганістан, починається дев'ятирічна війна<br>
+                            - 1980: США та інші країни починають надавати підтримку афганським муджахедам у боротьбі проти Радянського Союзу<br>
+                            - 1989: Радянський Союз виводить свої війська з Афганістану, війна продовжується між урядовими військами та муджахедами
+                            </p>
                         <h2>1990-1999</h2>
-                        <p>
-                        - 1992: Після падіння комуністичного режиму в Афганістані в країні починається громадянська війна між різними фракціями<br>
-                        - 1996: Талібан захоплює владу в Афганістані<br>
-                        - 1998: США запускає ракетний удар проти табору Хорасан талібанів, відповідь на терористичкий акт в Афганістані
-                        </p>
+                            <p>
+                            - 1992: Після падіння комуністичного режиму в Афганістані в країні починається громадянська війна між різними фракціями<br>
+                            - 1996: Талібан захоплює владу в Афганістані<br>
+                            - 1998: США запускає ракетний удар проти табору Хорасан талібанів, відповідь на терористичкий акт в Афганістані
+                            </p>
                         <h2>2000-2009</h2>
-                        <p>
-                        - 2001: США та інші країни запускають військову операцію в Афганістані після терористичних нападів 11 вересня<br>
-                        - 2001: Талібан свергається з влади, Афганістан отримує новий конституційний лад<br>
-                        - 2006: Напад на школу в місті Беслан в Росії, зв'язаний з чеченськими терористами<br>
-                        - 2009: Обрання Гаміда Карзая на другий термін президентства
-                        </p>
+                            <p>
+                            - 2001: США та інші країни запускають військову операцію в Афганістані після терористичних нападів 11 вересня<br>
+                            - 2001: Талібан свергається з влади, Афганістан отримує новий конституційний лад<br>
+                            - 2006: Напад на школу в місті Беслан в Росії, зв'язаний з чеченськими терористами<br>
+                            - 2009: Обрання Гаміда Карзая на другий термін президентства
+                            </p>
                         <h2>2010-2019</h2>
-                        <p>
-                        - 2011: Американські сили знищують лідера Аль-Каїди, Осаму бін Ладена в Пакистані<br>
-                        - 2014: Вибори президента в Афганістані, підписання угоди про залишення американських військ в країні<br>
-                        - 2015: Росія вступає в боротьбу проти ІДІЛ в Сирії та веде спільні військові навчання з Талібаном<br>
-                        - 2018: Талібан зростає в силі та контролює значну територію в Афганістані, переговори з урядом про мирне врегулювання конфлікту
-                        </p>
+                            <p>
+                            - 2011: Американські сили знищують лідера Аль-Каїди, Осаму бін Ладена в Пакистані<br>
+                            - 2014: Вибори президента в Афганістані, підписання угоди про залишення американських військ в країні<br>
+                            - 2015: Росія вступає в боротьбу проти ІДІЛ в Сирії та веде спільні військові навчання з Талібаном<br>
+                            - 2018: Талібан зростає в силі та контролює значну територію в Афганістані, переговори з урядом про мирне врегулювання конфлікту
+                            </p>
                         <h2>2020-дотепер</h2>
-                        <p>
-                        - 2020: Підписання угоди між США та Талібаном про виведення американських військ з Афганістану<br>
-                        - 2021: Талібан захоплює Кабул та повертається до влади в країні<br>
-                        - 2022: Відновлення насильственого конфлікту між Талібаном та урядовими військами, ескалація насильства та гуманітарної кризи
-                        </p> 
+                            <p>
+                            - 2020: Підписання угоди між США та Талібаном про виведення американських військ з Афганістану<br>
+                            - 2021: Талібан захоплює Кабул та повертається до влади в країні<br>
+                            - 2022: Відновлення насильственого конфлікту між Талібаном та урядовими військами, ескалація насильства та гуманітарної кризи
+                            </p> 
                     </div>
                 </div>
-                <hr>
+                        <hr>
                 <h2>Карти</h2>
                  <div class="main__img_info">
-                    <a href="./img/afghanistan-war/AfghanistanTopographicalMap_full.jpg"><img src="./img/afghanistan-war/AfghanistanTopographicalMap_full.jpg" alt="" class="img_materials"></a>
-                    <a href="./img/afghanistan-war/Embassy-Closure-Map.gif"><img src="./img/afghanistan-war/Embassy-Closure-Map.gif" alt="" class="img_materials"></a>
-                    <a href="./img/afghanistan-war/February 2016 AFG Map JPEG-01_4.jpg"><img src="./img/afghanistan-war/February 2016 AFG Map JPEG-01_4.jpg" alt="" class="img_materials"></a>
-                    <a href="./img/afghanistan-war/ISAF_Force_Distro_Spring2009 copy.gif"><img src="./img/afghanistan-war/ISAF_Force_Distro_Spring2009 copy.gif" alt="" class="img_materials"></a>
-                    <a href="./img/afghanistan-war/Militant Sanctuary in Afghanistan Map_070715-01_0_5.png"><img src="./img/afghanistan-war/Militant Sanctuary in Afghanistan Map_070715-01_0_5.png" alt="" class="img_materials"></a>
+                    <a href="../img/afghanistan-war/AfghanistanTopographicalMap_full.jpg"><img src="../img/afghanistan-war/AfghanistanTopographicalMap_full.jpg" alt="" class="img_materials"></a>
+                    <a href="../img/afghanistan-war/Embassy-Closure-Map.gif"><img src="../img/afghanistan-war/Embassy-Closure-Map.gif" alt="" class="img_materials"></a>
+                    <a href="../img/afghanistan-war/February 2016 AFG Map JPEG-01_4.jpg"><img src="../img/afghanistan-war/February 2016 AFG Map JPEG-01_4.jpg" alt="" class="img_materials"></a>
+                    <a href="../img/afghanistan-war/ISAF_Force_Distro_Spring2009 copy.gif"><img src="../img/afghanistan-war/ISAF_Force_Distro_Spring2009 copy.gif" alt="" class="img_materials"></a>
+                    <a href="../img/afghanistan-war/Militant Sanctuary in Afghanistan Map_070715-01_0_5.png"><img src="../img/afghanistan-war/Militant Sanctuary in Afghanistan Map_070715-01_0_5.png" alt="" class="img_materials"></a>
                  </div>
             </div>
         </main>
-        <?php require 'footer.php';?>
+        <?php require '../footer.php';?>
 </body>
 </html>

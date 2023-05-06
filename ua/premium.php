@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-<?php require 'head.php'; ?>
+<html lang="ua">
+<?php require '../head.php'; ?>
 <title>Premium</title>
 <body>
         <header>
@@ -8,7 +8,7 @@
             <div class="header__wrapper">
                 <div class="header__top_section">
                     <div class="top__section_icon_container">
-                        <?php require 'top__section_icon_container.php'; ?>
+                        <?php require '../top__section_icon_container.php'; ?>
                     </div>
                     <div class="top__section">
                         <div class="logo">
@@ -19,15 +19,15 @@
                         <div class="lang">
                             <div class="lang__container">
                                 <p class="lang-switcher eng">
-                                    <a href="#" tabindex="0">eng</a>
+                                    <a href="../eng/premium.php" tabindex="0">eng</a>
                                 </p>
                                 <p class="lang-switcher ua" tabindex="0">
-                                    <a href="#">ua</a>
+                                    <a href="../ua/premium.php">ua</a>
                                 </p>
                             </div>
                         </div>
                         <div class="profile">
-                            <a href="#"><img src="./img/icons/profile.svg" alt=""></a>
+                            <a href="#"><img src="../img/icons/profile.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -36,13 +36,13 @@
                     <div class="ul__search_container">
                         <div class="ul_container">
                             <ul>
-                                <li><a href="./index.php" class="back"><img src="./img/icons/arrow.svg" alt="" class="icon">Назад</a></li>
+                                <li><a href="../ua/index.php" class="back"><img src="../img/icons/arrow.svg" alt="" class="icon">Назад</a></li>
                         </div>
                         <div class="top__section_icon_container search">
                             <div class="icon">
                                 <div class="input__flex">
                                     <input type="text" name="" id="" placeholder="пошук">
-                                    <img src="./img/icons/pepicons-pop_loop.svg" alt="" class="loop">
+                                    <img src="../img/icons/pepicons-pop_loop.svg" alt="" class="loop">
                                 </div>
                             </div>
                         </div> 
@@ -101,6 +101,6 @@
                 </div>
             </div>
         </main>
-        <?php require 'footer.php';?>
+        <?php require '../footer.php';?>
 </body>
 </html>

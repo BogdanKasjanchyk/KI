@@ -4,10 +4,10 @@
                     <section class="sub_block new_dex">
                         <form id="subscription_form" class="form_sub">
                             <div class="input-block">
-                                <input type="text" name="name" required placeholder="Ім'я">
-                                <input type="email" name="email" required placeholder="Пошта">
+                                <input type="text" name="name" required placeholder="Name">
+                                <input type="email" name="email" required placeholder="Mail">
                             </div>
-                                <button type="submit" class="button">Підписатись</button>
+                                <button type="submit" class="button">Sign up</button>
                         </form>
                     </section>
                 </div>
@@ -16,7 +16,7 @@
                     ph (202) 293-5550
                     ©2007 – 2023 LINGER</p>
                     <div class="top__section_icon_container">
-                        <?php require '..\top__section_icon_container.php'; ?>
+                        <?php require '../top__section_icon_container.php'; ?>
                     </div>
                 </div>
             </div>

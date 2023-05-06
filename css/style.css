@@ -185,6 +185,7 @@ sup{
     border: none;
     font-size: 15px;
     font-weight: 700;
+    padding-left: 0.5rem;
 }
 .input__flex input::placeholder{
     text-transform: uppercase;
@@ -236,10 +237,11 @@ sup{
 	align-items: center;
 }
 .main__wrapper{
-    padding: 54px;
+   padding: 34px 54px 54px 54px;
     max-width: 1280px;
     margin: 0 auto;
     position: relative;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .subscribtion{
     position: absolute;
@@ -348,12 +350,14 @@ sup{
     width:100%;
     height: 50px;
     padding: 1rem;
-    margin-right:0.5rem;
     border: none;
     font-size: 15px;
     background: #fff;
     font-weight: 700;
     border-radius: 15px;
+}
+.input-block input:first-child{
+    margin-right:0.5rem;
 }
 .input-block input::placeholder{
     text-transform: uppercase;
