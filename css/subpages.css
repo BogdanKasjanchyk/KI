@@ -28,19 +28,17 @@
     flex-direction: column;
     justify-content: center;
     padding: 2rem;
-    background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    background: radial-gradient(circle at 10% 20%, rgb(254, 255, 165) 0%, rgb(255, 232, 182) 90%);
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
+    font-weight: 1000;
 }
 .mid_prem{
-    background-color: #FBAB7E;
-    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
 
 }
 .journalist{
-    background-color: #85FFBD;
-    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
 }
 .version{
     font-size: 23px;
@@ -83,10 +81,14 @@
     background: #fff;
     color: #1c1c1c;
 }
+.text__container_short_info h2{
+    padding-top: 0rem;
+}
 h2{
     padding-bottom: 1rem;
     padding-top: 2rem;
     text-align: left;
+    font-weight: 800;
 }
 h2:first-child{
     padding-top: 0.5rem;
@@ -98,7 +100,7 @@ h2:first-child{
 iframe{
     border-radius: 0.2rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    min-height: 900px;
+    
 }
 .img_materials{
     max-width: 350px;
@@ -133,13 +135,16 @@ iframe{
    .text__container_short_info{
     padding: 1rem;
     margin-left: 2rem;
-    background: #e8e8e8;
+    background: #f9f9f9;
    }
    hr{
     display: block;
     margin-top: 2rem;
     margin-bottom: 2rem;
    }
+   .footer__text .footer__icons{
+    display: none;
+    }
 }
 .text__container_short_info{ 
     text-align: justify;
@@ -150,4 +155,51 @@ iframe{
 .text__container_short_info p{
     padding-top: 1rem;
 }
+.thumbnail{
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.main__thumbnail{
+    max-width: 100%;
+    height: 350px;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+}
+.remark{
+    font-size: 0.7rem;
+    color: #c2c2c2;
+    font-weight: 500;
+    text-align: right;
+    margin-top: 0.5rem;
+}
+.options{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.share-icon{
+    max-width: 25px;
+    height: 25px;
+}
+.hashtag__block{
+    display: flex;
+    justify-content: left;
+}
+.share{
+    border: 0;
+    background: transparent;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+.tag{
+    margin-right: 1rem;
+    font-size: 0.8rem;
+    color: #c2c2c2;
+    cursor: pointer;
+}
+
 

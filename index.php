@@ -4,7 +4,6 @@
 <html lang="en">
 <body>
         <header>
-            <div class="header">
             <div class="header__wrapper">
                 <div class="header__top_section">
                     <div class="top__section_icon_container">
@@ -12,7 +11,7 @@
                     </div>
                     <div class="top__section_logo">
                         <div class="logo">
-                            <a href="#"><img src="./img/icons/linger.svg" alt=""></a>
+                            <a href="#"><img src="./img/icons/linger.svg" class="logo_img" alt=""></a>
                         </div>
                     </div>
                     <div class="top__section_language_profile">
@@ -56,13 +55,13 @@
                     <div class="header__slider_container">
                         <div class="slider__divider">
                             <div class="divider__container">
-                                <h2 class="advertisement">linger запрошує вас відвідати безплатну лекцію по військовій справі </h2>
+                                <h2 class="advertisement"> <span class="highlight">linger запрошує вас відвідати безплатну лекцію по військовій справі</span>  </h2>
                                 <button id="sign" class="button">Записатись</button>
                             </div>
                         </div>
                     </div>
+                    <div class="slider__wrapper_darker"></div>
                 </div>
-            </div>
         </div>
         </header>
         <main>
@@ -119,7 +118,5 @@
             </div>
         </main>
         <?php require 'footer.php';?>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="./main.js"></script> 
 </body>
 </html>

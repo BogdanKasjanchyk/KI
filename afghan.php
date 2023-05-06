@@ -49,6 +49,27 @@
         </header>
         <main>
             <div class="main__wrapper">
+            <div class="options">
+                    <div class="hashtag__block">
+                        <div class="tag">
+                            #afghanistan
+                        </div>
+                        <div class="tag">
+                            #war
+                        </div>
+                        <div class="tag">
+                            #conflict
+                        </div>
+                        <div class="tag">
+                            #maps
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main__thumbnail">
+                    <img src="./img/afghanistan-war/afghan-thumb.jpg" alt="" class="thumbnail">
+                    <p class="remark">Афганські студенти читають ісламські молитви в класі на відкритому повітрі у віддаленому Ваханському коридорі у вересні 2007 року.</p>
+                </div>
                 <div class="main__text_container">
                     <div class="main_text_info">
                         <h2>Війна з СРСР (1979-1989)</h2>
