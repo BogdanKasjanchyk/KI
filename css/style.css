@@ -68,8 +68,8 @@ a{
     background-color: #1c1c1c;
 }
 .icon img{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     margin: 10.5px;
 }
 .top__section_logo{
@@ -140,8 +140,8 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     flex-wrap: wrap;
 }
 .ul_container ul{
@@ -170,8 +170,8 @@ sup{
     font-weight: 600;
 }
 .input__flex{
-    min-width:300px;
-    height: 52px;
+    min-width:200px;
+    height: 42px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -253,11 +253,12 @@ sup{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
     padding: 1rem;
     color: #fff;
     font-weight: 700;
+}
+.sub_cont{
+    margin-bottom: 2rem;
 }
 .subscribtion button{
     padding: 0.4rem 3rem 0.4rem 3rem;
@@ -325,9 +326,7 @@ sup{
     align-items: center;
     flex-wrap: wrap;
 }
-.theme .text{
-    font-size: 25px;
-}
+
 
 .lowsize{
     margin: 0 1rem 0 1rem;
@@ -412,7 +411,7 @@ sup{
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        padding: 1rem;
+        padding: 0.5rem;
         flex-wrap: nowrap;
     }
     .ul_container ul{
@@ -468,8 +467,8 @@ sup{
         padding: 0.5rem;
     }
     .icon img{
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
         margin: 0px;
     }
     .profile img{
