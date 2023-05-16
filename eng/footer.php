@@ -1,23 +1,18 @@
-    <footer>
+<footer>
             <div class="footer__wrapper">
-                <div class="ad__subscribtion">
-                    <section class="sub_block new_dex">
-                        <form id="subscription_form" class="form_sub">
-                            <div class="input-block">
-                                <input type="text" name="name" required placeholder="Name">
-                                <input type="email" name="email" required placeholder="Mail">
-                            </div>
-                                <button type="submit" class="button">Sign up</button>
-                        </form>
-                    </section>
+                <div class="row">
+                   <div class="column">
+                    <p class="col-text"><a href="#">Availability</a></p>
+                    <p class="col-text"><a href="#">PRIVACY AND COOKIES</a></p>
+                    <p class="col-text"><a href="#">Become part of the team</a></p>
                 </div>
-                <div class="footer__text">
-                    <p class="text">1400 16th Street NW, Suite 515 Washington, DC 20036
-                    ph (202) 293-5550
-                    ©2007 – 2023 LINGER</p>
-                    <div class="top__section_icon_container">
-                        <?php require '../top__section_icon_container.php'; ?>
-                    </div>
+                <div class="column">
+                    <p class="col-text"><a href="#">SECURITY POLICY</a></p>
+                    <p class="col-text"><a href="#">FREEDOM OF INFORMATION</a></p>
+                </div> 
+                </div>
+                <div class="row row-top">
+                    <p class="col-text">2023 © bohdan kasianchuk</p>
                 </div>
             </div>
     </footer>

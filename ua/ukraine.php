@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php require '../head.php'; ?>
+<link rel="stylesheet" href="..\css\subpages.css">
 <title>Україна</title>
 <body>
         <header>
@@ -24,9 +25,6 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="profile">
-                            <a href="#"><img src="../img/icons/profile.svg" alt=""></a>
-                        </div>
                     </div>
                 </div>
 
@@ -36,14 +34,6 @@
                             <ul>
                                 <li><a href="../ua/index.php" class="back"><img src="../img/icons/arrow.svg" alt="" class="icon">Назад</a></li>
                         </div>
-                        <div class="top__section_icon_container search">
-                            <div class="icon">
-                                <div class="input__flex">
-                                    <input type="text" name="" id="" placeholder="пошук">
-                                    <img src="../img/icons/pepicons-pop_loop.svg" alt="" class="loop">
-                                </div>
-                            </div>
-                        </div> 
                     </div>
                 </div>
         </header>
