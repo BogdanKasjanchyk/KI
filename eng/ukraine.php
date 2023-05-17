@@ -25,13 +25,10 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="profile">
-                            <a href="#"><img src="../img/icons/profile.svg" alt=""></a>
-                        </div>
                     </div>
                 </div>
 
-                <div class="header__ul_searh">
+                <div class="header__ul_searh sub_back">
                     <div class="ul__search_container">
                         <div class="ul_container">
                             <ul>

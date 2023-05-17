@@ -9,11 +9,25 @@
                     <div class="top__section_icon_container">
                         <?php require '../top__section_icon_container.php'; ?>
                     </div>
+
+                    <section class="top-nav">
+                        <input id="menu-toggle" type="checkbox" />
+                        <label class='menu-button-container' for="menu-toggle">
+                            <div class='menu-button'></div>
+                        </label>
+                        <ul class="menu">
+                                <li><a href="#about_us">Our agency</a></li>
+                                <li><a href="#activity">Our value</a></li>
+                                <li class="li_new"><a href="#material">Materials</a></li>
+                        </ul>
+                    </section>
+
                     <div class="top__section_logo">
                         <div class="logo">
                             <a href="#"><img src="../img/icons/linger.svg" class="logo_img" alt=""></a>
                         </div>
                     </div>
+
                     <div class="top__section_language_profile">
                        <?php require '../lang.php'; ?>
                     </div>
@@ -23,9 +37,9 @@
                     <div class="ul__search_container">
                         <div class="ul_container">
                             <ul>
-                                <li><a href="#about_us">About us</a></li>
-                                <li><a href="#activity">Activity</a></li>
-                                <li class="li_new"><a href="#material">War conflicts</a></li>
+                                <li><a href="#about_us">Our agency</a></li>
+                                <li><a href="#activity">Our value</a></li>
+                                <li class="li_new"><a href="#material">Materials</a></li>
                             </ul>
                         </div>
                     </div>
@@ -39,7 +53,7 @@
                                 Be who <br> you can be.
                                 </h1>
                                 <div class="recruit">
-                                     <a href="#" class="team">Join our team</a>
+                                     <a href="#contact" class="team">Join our team</a>
                                      <img src="..\img\icons\go.svg" alt="">
                                 </div>
                                
@@ -66,7 +80,7 @@
                             <div class="aspect">
                                 <p class="text">As the world's leading intelligence company, the work we do is vital to Ukraine's national security. We collect and analyze foreign intelligence and conduct covert operations. Ukrainian politicians, including the president, make policy decisions based on the information we provide.</p>
                                 <div class="learn__button">
-                                    <a href="#">Learn more</a>
+                                    <a href="https://www.understandingwar.org/" target="_blank">Learn more</a>
                                 </div>
                             </div>
                         </div>
@@ -89,7 +103,7 @@
                 </div>
                 
                 <div class="wrapper__represent vertical">
-                        <h2 class="title" id="material">Materials.</h2>     
+                        <h2 class="title" id="material">Materials</h2>     
                     <div class="block__text">
                         <div class="aspect">
                             <div class="special_info">
@@ -155,10 +169,10 @@
                     </div> 
                 </div>  
                 
-                <div class="form__represent">
+                <div class="form__represent" id="contact">
                     <div class="title__block">
                             <h2 class="title">ONE TEAM, ONE FIGHT</h2>
-                            <p class="text">Subscribe to our newsletter</p>
+                            <p class="text">Please leave your contacts</p>
                     </div>
                     <div class="block__text" id="activity">
                         <section class="sub_block new_dex">
@@ -169,7 +183,7 @@
                                         <input type="text" name="surname" required placeholder="Surname">
                                     </div>
                                     <input type="email" name="email" required placeholder="Email">
-                                    <button type="submit" class="button">Subscribe</button>
+                                    <button type="submit" class="button">Send</button>
                                     </div>
                             </form>
                         </section>

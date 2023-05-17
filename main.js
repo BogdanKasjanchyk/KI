@@ -9,7 +9,7 @@ $('#subscription_form').on('submit', function (e) {
     data: $form.serialize()
     }).done(function () {
     $form[0].reset()
-    alert('Thank you for the subscription!')
+    alert('Thanks! You will receive a confirmation email shortly afterwards')
     }).fail(function () {
     alert('Something went wrong')
     });

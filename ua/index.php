@@ -1,14 +1,25 @@
 <!DOCTYPE html>
-<?php require '../head.php'; ?>
+    <?php require '../head.php'; ?>
 <title>Linger</title>
 <html lang="ua">
 <body>
         <header>
             <div class="header__wrapper">
                 <div class="header__top_section">
-                    <div class="top__section_icon_container">
                         <?php require '../top__section_icon_container.php'; ?>
-                    </div>
+
+                        <section class="top-nav">
+                        <input id="menu-toggle" type="checkbox" />
+                        <label class='menu-button-container' for="menu-toggle">
+                            <div class='menu-button'></div>
+                        </label>
+                        <ul class="menu">
+                                <li><a href="#about_us">Наше агентство</a></li>
+                                <li><a href="#activity">Наша цінність</a></li>
+                                <li class="li_new"><a href="#material">Матеріали</a></li>
+                        </ul>
+                    </section>
+
                     <div class="top__section_logo">
                         <div class="logo">
                            <img src="../img/icons/linger.svg" class="logo_img" alt="">
@@ -39,7 +50,7 @@
                                 Будь тим, ким <br> ти можеш бути.
                                 </h1>
                                 <div class="recruit">
-                                     <a href="#" class="team">Долучайся до нашої команди</a>
+                                     <a href="#contact" class="team">Долучайся до нашої команди</a>
                                      <img src="..\img\icons\go.svg" alt="">
                                 </div>
                                
@@ -66,7 +77,7 @@
                             <div class="aspect">
                                 <p class="text">Як провідна аналізуюча компанія в світі, робота, яку ми виконуємо, є життєво важливою для національної безпеки України. Ми збираємо та аналізуємо зовнішні розвіддані та проводимо таємні оперії. Українські політики, включно з президентом, приймають політичні рішення на основі інформації, яку ми надаємо.</p>
                                 <div class="learn__button">
-                                    <a href="#">Дізнатися більше</a>
+                                    <a href="https://www.understandingwar.org/" target="_blank">Дізнатися більше</a>
                                 </div>
                             </div>
                         </div>
@@ -155,10 +166,10 @@
                     </div> 
                 </div>  
                 
-                <div class="form__represent">
+                <div class="form__represent" id="contact">
                     <div class="title__block">
                             <h2 class="title">ОДНА КОМАНДА, ОДНА БОРОТЬБА</h2>
-                            <p class="text">Підпишіться на нашу розсилку</p>
+                            <p class="text">Залиште ваші контакти</p>
                     </div>
                     <div class="block__text" id="activity">
                         <section class="sub_block new_dex">
@@ -169,7 +180,7 @@
                                         <input type="text" name="surname" required placeholder="Прізвище">
                                     </div>
                                     <input type="email" name="email" required placeholder="Пошта">
-                                    <button type="submit" class="button">Підписатись</button>
+                                    <button type="submit" class="button">Відправити</button>
                                     </div>
                             </form>
                         </section>
@@ -178,6 +189,8 @@
 
             </div>
         </main>
+
         <?php require 'footer.php';?>
+        
 </body>
 </html>
