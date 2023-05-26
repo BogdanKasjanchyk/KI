@@ -14,4 +14,3 @@ $('#subscription_form').on('submit', function (e) {
     alert('Something went wrong')
     });
    });
-

@@ -2,7 +2,7 @@
     <?php require '../head.php'; ?>
 <title>Linger</title>
 <html lang="ua">
-<body>
+<body id="body">
         <header>
             <div class="header__wrapper">
                 <div class="header__top_section">
@@ -16,7 +16,7 @@
                         <ul class="menu">
                                 <li><a href="#about_us">Наше агентство</a></li>
                                 <li><a href="#activity">Наша цінність</a></li>
-                                <li class="li_new"><a href="#material">Матеріали</a></li>
+                                <li><a href="#material">Матеріали</a></li>
                         </ul>
                     </section>
 
@@ -36,7 +36,7 @@
                             <ul>
                                 <li><a href="#about_us">Наше агентство</a></li>
                                 <li><a href="#activity">Наша цінність</a></li>
-                                <li class="li_new"><a href="#material">Матеріали</a></li>
+                                <li><a href="#material">Матеріали</a></li>
                             </ul>
                         </div>
                     </div>
@@ -145,15 +145,15 @@
                                 <div class="aspect__special_info_block">
                                     <div class="special_info__wrapper">
                                         <div class="special_info__image">
-                                            <img src="../img/filler.svg" alt="">
+                                            <img src="..\img\kennedydeath\preview.jpg" alt="">
                                         </div>
                                         <div class="special_info__content">
                                             <div class="info">
-                                                
+                                            <p>Дізнайтеся про обставини і наслідки одного з найгучніших злочинів ХХ століття, який змінив хід історії США і світу.</p>
                                             </div>
                                         </div>
                                         <div class="special_info__button">
-                                            <a href="#">Більше</a>
+                                            <a href="..\ua\kennedydeath.php">Більше</a>
                                             <div class="arrow_goto">
                                                 <img src="../img/icons/goto.svg" alt="">
                                             </div>

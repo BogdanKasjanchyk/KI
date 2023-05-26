@@ -18,7 +18,7 @@
                         <ul class="menu">
                                 <li><a href="#about_us">Our agency</a></li>
                                 <li><a href="#activity">Our value</a></li>
-                                <li class="li_new"><a href="#material">Materials</a></li>
+                                <li><a href="#material">Materials</a></li>
                         </ul>
                     </section>
 
@@ -39,7 +39,7 @@
                             <ul>
                                 <li><a href="#about_us">Our agency</a></li>
                                 <li><a href="#activity">Our value</a></li>
-                                <li class="li_new"><a href="#material">Materials</a></li>
+                                <li><a href="#material">Materials</a></li>
                             </ul>
                         </div>
                     </div>
@@ -148,15 +148,15 @@
                                 <div class="aspect__special_info_block">
                                     <div class="special_info__wrapper">
                                         <div class="special_info__image">
-                                            <img src="../img/filler.svg" alt="">
+                                            <img src="..\img\kennedydeath\preview.jpg" alt="">
                                         </div>
                                         <div class="special_info__content">
                                             <div class="info">
-                                                
+                                            <p>Learn about the circumstances and consequences of one of the most notorious crimes of the twentieth century, which changed the course of US and world history.</p>
                                             </div>
                                         </div>
                                         <div class="special_info__button">
-                                            <a href="#">More</a>
+                                            <a href="..\eng\kennedydeath.php">More</a>
                                             <div class="arrow_goto">
                                                 <img src="../img/icons/goto.svg" alt="">
                                             </div>
@@ -187,7 +187,7 @@
                                     </div>
                             </form>
                         </section>
-                    </div> 
+                    </div>
                 </div>
 
             </div>

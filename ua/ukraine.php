@@ -83,7 +83,6 @@
                         <p>2023: Продовження контрнаступальних дій ЗСУ (сiчень-квiтень); бойова дiяльнiсть на Донбасi, в Криму та на пiвденному сходi Украïни</p>
                     </div>
                 </div>
-                <hr>
                 <h2>Карти</h2>
                  <div class="main__img_info">
                     <a href="../img/ukraine-war/map1.png"><img src="../img/ukraine-war/map1.png" alt="" class="img_materials"></a>

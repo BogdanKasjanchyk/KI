@@ -121,7 +121,6 @@
                             </p> 
                     </div>
                 </div>
-                        <hr>
                 <h2>Карти</h2>
                  <div class="main__img_info">
                     <a href="../img/afghanistan-war/AfghanistanTopographicalMap_full.jpg"><img src="../img/afghanistan-war/AfghanistanTopographicalMap_full.jpg" alt="" class="img_materials"></a>

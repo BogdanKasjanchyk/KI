@@ -7,5 +7,5 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="..\css\style.css">
     <link rel="stylesheet" href="..\css\media.css">
-    <link href="..\img\military-rank.png" type="image\png" rel="shortcut icon">
+    <link href="..\img\icons\rose.svg" type="image\png" rel="shortcut icon">
 </head>

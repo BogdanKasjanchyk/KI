@@ -83,7 +83,6 @@
                         <p>2023: Continuation of counteroffensive actions of the Armed Forces of Ukraine (January-April); combat activity in Donbas, Crimea and southeastern Ukraine</p>
                     </div>
                 </div>
-                <hr>
                 <h2>Maps</h2>
                  <div class="main__img_info">
                     <a href="../img/ukraine-war/map1.png"><img src="../img/ukraine-war/map1.png" alt="" class="img_materials"></a>
